@@ -1,0 +1,396 @@
+/*초기설정*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*레이아웃*/
+/*상단메뉴*/
+#top_menu {
+    width: 900px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+#top_menu p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#top_menu p.line {
+    width: 1px;
+    height: 10px;
+    background: #ddd;
+    margin: 0 15px;
+}
+
+#top_menu p.login {
+    margin-left: 330px;
+}
+
+#top_menu p a {
+    color: #666;
+    font-size: 14px;
+    letter-spacing: -1px;
+    /*자간*/
+}
+
+#top_menu p:hover a {
+    color: #000;
+}
+
+
+/*로고메뉴*/
+#nav {
+    width: 900px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+
+#nav p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#nav p a {
+    margin-right: 25px;
+
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+#nav p:hover a {
+    color: #223c87;
+}
+
+/*공통상단메뉴 끝*/
+
+/*메뉴영역시작*/
+#menu_section1 {
+    width: 900px; height: 400px;
+    background-image: url(../images/menu_section1_bg.jpg);
+    margin: 0 auto;
+    text-align: center;
+}
+
+#menu_section1 h2 {
+    padding-top: 60px;
+
+    color:#fff; font-size: 44px;
+    font-weight: normal; letter-spacing: -4px;
+}
+
+#menu_section1 h4 {
+    padding-top: 30px;
+
+    color:#fff; font-size: 28px;
+    font-weight: normal; letter-spacing: -1px;
+}
+
+#menu_section1 h6 {
+    padding-top: 30px;
+
+    color:#fff; font-size: 18px;
+    font-weight: normal; letter-spacing: -1px;
+}
+
+#menu_section1 p {
+    width: 185px; height: 40px;
+    border: 1px solid #fff;
+    color:#fff; font-size: 14px;
+    line-height: 40px;
+
+    display: inline-block;
+    margin: 40px 0;
+    margin-left: -6px;
+}
+#menu_section1 p:hover {
+    background: #fff; color:#333;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+#menu_section1 p.btn2 {
+    border-left: 0;
+}
+#menu_section1 p.btn3 {
+    border-left: 0;
+}
+
+
+/*음료*/
+#menu_section2 {
+    width: 900px; height: 320px;
+    background-image: url(../images/menu_section2_bg.jpg);
+    margin: 0 auto;
+}
+
+#menu_section2 h2 {
+    padding-top: 40px;
+    padding-left: 60px;
+
+    color:#333;
+    font-size: 36px;
+    font-weight: normal;
+    letter-spacing: -3px;
+
+}
+
+#menu_section2 p.line {
+    width: 70px; height: 1px;
+    background: #333;
+    
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+#menu_section2 h4 {
+    padding-top: 20px;
+    padding-left: 60px;
+
+    color:#333;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -1px;
+
+}
+
+#menu_section2 h6 {
+    padding-top: 20px;
+    padding-left: 60px;
+
+    color:#666;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: -1px;
+
+}
+
+#menu_section2 p.btn {
+    width: 160px; height: 40px;
+    border: 1px solid #333;
+
+    margin-top: 20px;
+    margin-left: 60px;
+
+    text-align: center;
+    line-height: 40px;
+
+    color:#333; font-size: 14px;
+    letter-spacing: -1px;
+
+    cursor: pointer;
+}
+
+#menu_section2 p.btn:hover {
+    background: #223d82;
+    color:#fff;
+}
+
+
+/*베이커리*/
+#menu_section3 {
+    width: 900px; height: 320px;
+    background-image: url(../images/menu_section3_bg.jpg);
+    margin: 0 auto;
+}
+
+#menu_section3 h2 {
+    padding-top: 40px;
+    padding-left: 480px;
+
+    color:#fff;
+    font-size: 36px;
+    font-weight: normal;
+    letter-spacing: -3px;
+
+}
+
+#menu_section3 p.line {
+    width: 70px; height: 1px;
+    background: #fff;
+    
+    margin-top: 20px;
+    margin-left: 480px;
+}
+
+#menu_section3 h4 {
+    padding-top: 20px;
+    padding-left: 480px;
+
+    color:#fff;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -1px;
+
+}
+
+#menu_section3 h6 {
+    padding-top: 20px;
+    padding-left: 480px;
+
+    color:#fff;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: -1px;
+
+}
+
+#menu_section3 p.btn {
+    width: 160px; height: 40px;
+    border: 1px solid #fff;
+
+    margin-top: 20px;
+    margin-left: 480px;
+
+    text-align: center;
+    line-height: 40px;
+
+    color:#fff; font-size: 14px;
+    letter-spacing: -1px;
+
+    cursor: pointer;
+}
+
+#menu_section3 p.btn:hover {
+    background: #fff;
+    color:#000;
+}
+
+
+/*원두*/
+#menu_section4 {
+    width: 900px; height: 320px;
+    background-image: url(../images/menu_section4_bg.jpg);
+    margin: 0 auto;
+}
+
+#menu_section4 h2 {
+    padding-top: 40px;
+    padding-left: 60px;
+
+    color:#333;
+    font-size: 36px;
+    font-weight: normal;
+    letter-spacing: -3px;
+
+}
+
+#menu_section4 p.line {
+    width: 70px; height: 1px;
+    background: #333;
+    
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+#menu_section4 h4 {
+    padding-top: 20px;
+    padding-left: 60px;
+
+    color:#333;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -1px;
+
+}
+
+#menu_section4 h6 {
+    padding-top: 20px;
+    padding-left: 60px;
+
+    color:#666;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: -1px;
+
+}
+
+#menu_section4 p.btn {
+    width: 160px; height: 40px;
+    border: 1px solid #333;
+
+    margin-top: 20px;
+    margin-left: 60px;
+
+    text-align: center;
+    line-height: 40px;
+
+    color:#333; font-size: 14px;
+    letter-spacing: -1px;
+
+    cursor: pointer;
+}
+
+#menu_section4 p.btn:hover {
+    background: #223d82;
+    color:#fff;
+}
+
+
+
+
+
+/*공통하단 시작*/
+/* 하단메뉴 시작 */
+#down_menu {
+    width: 900px;
+    height: 50px;
+    line-height: 50px;
+    background: #262626;
+    border-bottom: 1px solid #464646;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#down_menu p {
+    display: inline-block;
+    vertical-align: middle;
+
+    margin: 0 20px;
+}
+
+#down_menu p a {
+    font-size: 13px;
+    color: #535353;
+    letter-spacing: -1px;
+    font-family: '돋움';
+    font-weight: bold;
+}
+
+#down_menu p:hover a {
+    color: #fff;
+}
+
+/*카피라이트*/
+#copyright {
+    width: 900px;
+    height: 150px;
+    background: #262626;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#copyright p.img {
+    margin-left: 150px;
+    padding-top: 10px;
+}
+
+#copyright p.txt {
+    font-size: 12px;
+    color: #535353;
+    letter-spacing: -1px;
+    font-family: '돋움';
+    font-weight: bold;
+
+    padding-top: 10px;
+}
