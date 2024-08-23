@@ -78,23 +78,107 @@ a {
 
 /*커피랩 영역시작*/
 #coffeelab_section1 {
-    width: 900px; 
+    width: 900px;
     height: 494px;
-      
-     background-image: url(../커피랩사진.jpg);
-     background-size: cover;
-    /* background: pink; */
+    background: url(../images/coffeelab_bg.jpg);
     margin: 0 auto;
     text-align: center;
-    color: #fff;
 }
-#coffeelab_section1 img{
+#coffeelab_section1 p.img {
     padding-top: 50px;
 }
-#coffeelab_section1 h2{
+
+#coffeelab_section1 h2 {
     padding-top: 30px;
+
+    color: #fff;
+    font-size: 28px;
+    letter-spacing: -2px; /*자간*/
 }
 
+#coffeelab_section1 p.txt {
+    padding-top: 15px;
+
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: -1px; /*자간*/
+}
+
+/*중앙영역상단*/
+#coffeelab_section2 {
+    width: 900px;
+    height: 240px;
+    background: #000;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#coffeelab_section2 p.line1 {
+    width: 425px;
+    height: 2px;
+    background: #78593a;
+
+    margin: 0 auto;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+#coffeelab_section2 p.line2 {
+    width: 425px;
+    height: 2px;
+    background: #78593a;
+
+    margin: 0 auto;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+#coffeelab_section2 h2 {
+    padding-top: 10px;
+
+    color:#fff;
+    font-size: 24px;
+    letter-spacing: -2px;
+}
+
+#coffeelab_section2 p.txt {
+    padding-top: 20px;
+
+    color:#78593a;
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+
+/*중앙영역 하단*/
+#coffeelab_section3 {
+    width: 900px;
+    height: 230px;
+    background: #000;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#coffeelab_section3 div {
+    width: 230px;
+    height: 230px;
+    background: #000;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    margin: 0 20px;    
+}
+#coffeelab_section3 div p.img {
+    padding-top: 20px;
+}
+
+#coffeelab_section3 div p.txt {
+    padding-top: 20px;
+
+    color:#78593a;
+    font-size: 14px;
+    letter-spacing: -1px;
+}
 
 
 /*공통하단 시작*/
